@@ -1,0 +1,289 @@
+*
+{
+  margin= 0;
+  padding= 0;
+}
+/*---NAVIGATION-----*/  
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+  height: 70px;
+  padding-left: 10px;
+}
+.navbar-nav li
+{
+ padding: 0 10px;
+}
+.navbar-nav li a
+{
+ float: right;
+ text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: black;
+}
+.navbar
+{
+  background: #555;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: powderblue !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+/*----Slider----*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top:50%;
+    transform: translateY(-40%);
+    bottom: !important;
+}
+.carousel-caption h5
+{
+    color:black;
+    font-size: 35px;
+}
+/*-----About------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom:6px;
+    font-weight:600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+/*-----services---------*/
+#OURWEBSITE
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    color:darkkhaki;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#OURWEBSITE h1
+{
+    text-align: center;
+    color:darkkhaki;
+    padding-bottom: 10px;
+}
+#OURWEBSITE h1:after
+{
+    content:'';
+    background: darkkhaki;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.SafariWorld
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#OURWEBSITE p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.SafariWorld .col-md-3:hover{
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: darkkhaki;
+}
+h1
+{
+    text-align: center;
+    color:darkkhaki;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: darkkhaki;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display:block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+}
+.table
+{
+    text-align: center;
+}
+table
+{
+    margin-left: 300px; 
+    width: 60%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow:inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkgrey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: dodgerblue; 
+    color:
+}
+/*--------Footer-------*/
+#footer {
+  color: #444444;
+  font-size: 14px;
+  background:darkgrey;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: azure;
+    color:
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #777777;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #3498db;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #3498db;
+}
